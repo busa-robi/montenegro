@@ -1,0 +1,27 @@
+.fejlec {
+    padding-top: 60px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.fejlecfelirat {
+    font-size: 50pt;
+    text-decoration: none;
+}
+
+.nameanimation {
+    font-size: 20px;
+    font-weight: bold;
+    animation: nameanimation 5s infinite forwards;
+    color: red;
+}
+
+@keyframes nameanimation {
+    0% {color: red;}
+    20% {color: blue;}
+    40% {color: greenyellow;}
+    60% {color: yellow;}
+    80% {color: orange;}
+    90% {color: orangered;}
+    100% {color: red;}
+}
