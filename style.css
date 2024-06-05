@@ -36,3 +36,26 @@ body{
     margin: auto;
 }
 
+hr {
+    border: 4px solid white;
+    max-width: 1400px;
+    margin: auto;
+    margin-bottom: 50px
+}
+
+.border-top {width: 400px;}
+
+a {
+    text-decoration: none;
+    
+}
+
+
+.felnyil {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
